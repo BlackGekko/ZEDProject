@@ -6,3 +6,11 @@ body
 {
     margin: 0;
 }
+.imageGalOne {
+    background-color: white;
+    margin: 0;
+}
+.imageGalOne h2 {
+    text-align: center;
+    color: black;
+}

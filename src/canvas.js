@@ -13,8 +13,8 @@ var maxRadius = 40;
 //var minRadius = 2;
 
 var colorArray = [
-    'white',
     '#FDFD96',
+    "#FFD1DC",
 ];
 
 window.addEventListener('mousemove', function(event) {
@@ -43,6 +43,8 @@ function Circle(x, y, dx, dy, radius) {
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
         c.fillStyle = this.color;
         c.fill();
+        //c.font = "30px Arial";
+        //c.fillText("ZED PROJECT", this.x/2, this.y/2);
     }
 
     this.update = function() {
