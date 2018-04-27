@@ -1,4 +1,7 @@
 var canvas = document.querySelector('canvas');
+
+//Canvas is just a tad bit to large on the right side, causing a side scroll bar to appear at the bottom of the screen.
+//This fix is going to have to wait a while, going to attempt to add the nav bar to the canvas
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
@@ -10,7 +13,6 @@ var mouse = {
 }
 
 var maxRadius = 40;
-//var minRadius = 2;
 
 var colorArray = [
     '#FDFD96',
@@ -102,8 +104,14 @@ function animate()
         circleArray[i].update();
     }
 
-    c.font = "30px Arial";
-    c.fillText("ZED PROJECT", canvas.width/2, canvas.height/2);
+    //Text will not center inside of the canvasd element
+    //1920x942
+    //Dividing both the with/2 and entering actal divided numbers does not produce a change in the texts settting.
+    //setting location at 10, 50 shows good possible placement for the menu bar that will be added to the page
+    //For some reason setting it to 620,460 made the text center even though that is no where from half of the canvas
+
+    c.font = "100px Arial";
+    c.fillText("ZED PROJECT", 620, 460);
     c.strokeText = 'white';
 }
 init();

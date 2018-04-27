@@ -1,7 +1,59 @@
 canvas
 {
     background-color: black;
+    position: relative;
 }
+
+#button1
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 47%;
+    margin-bottom: 19%;
+    background-color: #fdfd96;
+    outline-color: black;
+    color: black;
+}
+
+#button1:hover
+{
+    background-color: #FFD1DC;
+}
+
+#button2
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 52.5%;
+    margin-bottom: 19%;
+    background-color: #fdfd96;
+    outline-color: black;
+    color: black;
+}
+
+#button2:hover
+{
+    background-color: #FFD1DC;
+}
+
+#button3
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 42%;
+    margin-bottom: 19%;
+    background-color: #fdfd96;
+    outline-color: black;
+    color: black;
+}
+#button3:hover
+{
+    background-color: #FFD1DC;
+}
+
 body
 {
     margin: 0;

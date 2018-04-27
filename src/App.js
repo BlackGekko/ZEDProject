@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-//import {
-//  Route,
-//  NavLink,
-//  HashRouter
-//} from "react-router-dom";
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
 
 //Home return to top buttons
 //Animated home screen, reacts to mouse movement?
@@ -11,15 +11,17 @@ import React, { Component } from 'react';
 //may 18 personal dedline
 //Lauch static / back end development begins
 
+import Home from './Home.js';
+
 
 export default class App extends Component {
   render() {
     return (
-      //<HashRouter>
+      <HashRouter>
         <div>
-          
+            
         </div>
-      //</HashRouter>
+      </HashRouter>
     );
   }
 }
