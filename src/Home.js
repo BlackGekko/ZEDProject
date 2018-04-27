@@ -1,8 +1,24 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom';
+import $ from 'jquery';
 
 import Footer from './Footer.js';
 
 export default class Home extends React.Component {
+	componentDidMount() {
+
+		$(".hover").hover(
+			function ()
+			{
+				$(this).html($("<p> HOVERING!!!!! </p>"));
+			},
+			function ()
+			{
+				$(this).html($(""));
+			});
+
+	}
+
     render() {
 		
         return (
@@ -10,11 +26,11 @@ export default class Home extends React.Component {
                 <div class="grid-x">
 				    <div class="cell">
 					    <div class="imageGalOne">
-						    <h2>Featured Albums</h2>
+						    <h2>Featured Pieces</h2>
 						    <hr></hr>
 						    	<div class="photoBoundingBox1">
 							    	<div class="photo">
-										<img id='one' className='hover'src={require('./images/img1.jpg')} />
+										<img id='one' className='hover' src={require('./images/img1.jpg')} />
 										<img id='two' className='hover' src={require('./images/img3.jpg')} />
 										<img id='three' className='hover' src={require('./images/img9.jpg')} />
 						    		</div>

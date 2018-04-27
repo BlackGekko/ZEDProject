@@ -2,32 +2,33 @@ import React, { Component } from 'react';
 import {
   Route,
   NavLink,
-  HashRouter
+  BrowserRouter,
+  Switch,
+  Link
 } from "react-router-dom";
 
-//Home return to top buttons
+//Home return to top buttons -- COMPLETE
 //Animated home screen, reacts to mouse movement? -- COMPLETE
-//circle/squared images on display
+//circle/squared images on display - COMPLETE (with edits)
 //may 18 personal dedline
 //Lauch static / back end development begins
-//All home page images need to like to album set, and then have a sliding javascript feature that shows the album name
+//All home page images need to like to album set, and then have a sliding javascript feature that shows the album name -- In Progress
 //Album page needs to have a creative design that will represent the album name, date, and the model that is seen
-
-//Chane ALL html class tags to className
+//Need to create sub routes that when an image is clicked that album is brought up -- In Progress
+//Create className to keep the buttons text from turning blue when it beconmes a link -- COMPLETE
+//Change ALL html class tags to className
 
 import canvas from './canvas.js';
 
 import Home from './Home.js';
 import About from './About.js';
 import Contact from './Contact.js';
-
-//Create className to keep the buttons text from turning blue when it beconmes a link -- COMPLETE
-
+import Albums from './Albums.js';
 
 export default class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div>
           <div class="grid-x">
 				    <div class="cell">
@@ -40,13 +41,14 @@ export default class App extends Component {
 						  </div>
 					  </div>
 			    </div>
-          <div className = "content">
+          <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
-          </div>
+            <Route path='/albums' component={Albums}/>
+          </Switch>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

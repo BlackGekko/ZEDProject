@@ -69,6 +69,7 @@ body
 .photo
 {
     padding-bottom: 10px;
+    position: relative;
 }
 .photo2
 {
@@ -193,6 +194,7 @@ body
 .hover
 {
     transition: .5s ease;
+    position: relative;
     opacity: 1;
 }
 .hover:hover
