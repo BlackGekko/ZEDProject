@@ -162,11 +162,40 @@ body
 .contactContent
 {
     margin-left: 18.5%;
-    width: 200px;
+    width: 150px;;
     margin-bottom: 20px;
     text-align: center;
 }
 .contactContent p
 {
     padding: 5px;
+}
+#contactInfo
+{
+    display: inline-block;
+    vertical-align: top;
+}
+#contactInfo button
+{
+    background-color: #fdfd96;
+    color: black;
+    outline: black solid 1px;
+}
+.VL
+{
+    border-left: 4px solid #fdfd96;
+    height: 453px;
+}
+.emailForm
+{
+    margin-left: 50px;
+}
+.hover
+{
+    transition: .5s ease;
+    opacity: 1;
+}
+.hover:hover
+{
+    opacity: 0.3;
 }

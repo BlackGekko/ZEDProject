@@ -12,13 +12,22 @@ export default class Contact extends React.Component {
                             <h2>Contact Me</h2>
                             <hr></hr>
                         </div>
-                        <div className='contactContent'>
+                        <div className='contactContent' id='contactInfo'>
                             <p>Zariah Dally</p>
                             <p>775-502-5629</p>
                             <p>Reno, NV</p>
                         </div>
-                        <div className='emailForm'>
-
+                        <div className='VL' id='contactInfo'></div>
+                        <div className='emailForm' id='contactInfo'>
+                            <form action='mailto:jeremyleramian@outlook.com' method='post' encType='text/plain'>
+                                Name:<br></br>
+                                <input type="text" name="name"></input><br></br>
+                                E-mail:<br></br>
+                                <input type="text" name="mail"></input><br></br>
+                                Comment:<br></br>
+                                <input type="text" name="comment" size="50"></input><br></br>
+                                <button className='button' type='submit'>Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
