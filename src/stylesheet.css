@@ -53,6 +53,21 @@ canvas
 {
     background-color: #FFD1DC;
 }
+#button4
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 36.5%;
+    margin-bottom: 19%;
+    background-color: #fdfd96;
+    outline-color: black;
+    color: black;
+}
+#button4:hover
+{
+    background-color: #FFD1DC;
+}
 
 body
 {
@@ -185,7 +200,7 @@ body
 .VL
 {
     border-left: 4px solid #fdfd96;
-    height: 453px;
+    height: 440px;
 }
 .emailForm
 {
@@ -200,4 +215,25 @@ body
 .hover:hover
 {
     opacity: 0.3;
+}
+.albumContent h2
+{
+    text-align: center;
+}
+.sidebar
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18.5%;
+
+}
+.a2018
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+.a2018 #ap1
+{
+    margin-right: 15px;
 }

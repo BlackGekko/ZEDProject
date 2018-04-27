@@ -37,6 +37,7 @@ export default class App extends Component {
 							  <script src="../src/canvas.js"></script>
 						  	<button id="button1" class="button"><NavLink to = '/contact' style={{color: 'black'}}>Contact</NavLink></button>
 							  <button id="button2" class="button"><NavLink to = '/about' style={{color: 'black'}}>About</NavLink></button>
+                <button id="button4" class="button"><NavLink to = '/albums' style={{color: 'black'}}>Albums</NavLink></button>
 							  <button id="button3" class="button"><NavLink to = '/' style={{color: 'black'}}>Home</NavLink></button>
 						  </div>
 					  </div>

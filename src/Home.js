@@ -6,17 +6,7 @@ import Footer from './Footer.js';
 
 export default class Home extends React.Component {
 	componentDidMount() {
-
-		$(".hover").hover(
-			function ()
-			{
-				$(this).html($("<p> HOVERING!!!!! </p>"));
-			},
-			function ()
-			{
-				$(this).html($(""));
-			});
-
+		
 	}
 
     render() {

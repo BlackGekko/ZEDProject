@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
 						    <p>© ZED Project</p>
                             <img id='facebook' src={require('./Facebook.jpg')} />
                             <img id='Instagram' src={require('./Instagram.jpg')} />
-                            <a href="#/" className='minText'>Back to top of page</a>
+                            <a href="#/" className='minText'>Back to top</a>
 					    </div>
 				    </div>
 			    </div>
