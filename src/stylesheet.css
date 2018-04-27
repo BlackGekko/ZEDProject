@@ -81,7 +81,32 @@ body
 .footer
 {
     background-color: black;
-    color: white;
-    text-align: center;
     margin-bottom: 0;
+    height: 165px;
+    text-align: center
+}
+.footer p
+{
+    color: #fdfd96;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    line-height: 60px;
+}
+.footer img
+{
+    display: inline-block;
+    margin-left: auto;
+    padding: 4px;
+    margin-right: auto;
+}
+.footer .minText
+{
+    color: #1f2121;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    line-height: 60px;
 }
