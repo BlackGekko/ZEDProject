@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded',domloaded,false);
+function domloaded(){
+
 var canvas = document.querySelector('canvas');
 
 //Canvas is just a tad bit to large on the right side, causing a side scroll bar to appear at the bottom of the screen.
@@ -119,3 +122,20 @@ function animate()
 }
 init();
 animate();
+
+}
+
+
+//Code below is just for refernance later for another page, disregard until testing had concluded
+
+//<div class="grid-x">
+//<div class="cell">
+//<div class="opening">
+    //<canvas></canvas>
+    //<script src="../src/canvas.js"></script>
+    //<button id="button1" class="button">Contact</button>
+    //<button id="button2" class="button">About</button>
+    //<button id="button3" class="button">Home</button>
+//</div>
+//</div>
+//</div>

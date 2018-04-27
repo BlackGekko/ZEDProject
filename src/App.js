@@ -11,7 +11,11 @@ import {
 //may 18 personal dedline
 //Lauch static / back end development begins
 
+import canvas from './canvas.js';
+
 import Home from './Home.js';
+import About from './About.js';
+import Contact from './Contact.js';
 
 
 export default class App extends Component {
@@ -19,7 +23,22 @@ export default class App extends Component {
     return (
       <HashRouter>
         <div>
-            
+          <div class="grid-x">
+				    <div class="cell">
+						  <div class="opening">
+							  <canvas></canvas>
+							  <script src="../src/canvas.js"></script>
+						  	<button id="button1" class="button"><NavLink to = '/contact'>Contact</NavLink></button>
+							  <button id="button2" class="button"><NavLink to = '/about'>About</NavLink></button>
+							  <button id="button3" class="button"><NavLink to = '/'>Home</NavLink></button>
+						  </div>
+					  </div>
+			    </div>
+          <div className = "content">
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/contact" component={Contact}/>
+          </div>
         </div>
       </HashRouter>
     );
