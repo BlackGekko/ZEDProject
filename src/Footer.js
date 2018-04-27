@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
                 <div className="grid-x">
 				    <div className="cell">
 					    <div className="footer">
-						    <p>©ZED Project</p>
+						    <p>© ZED Project</p>
                             <img id='facebook' src={require('./Facebook.jpg')} />
                             <img id='Instagram' src={require('./Instagram.jpg')} />
                             <a href="#/" className='minText'>Back to top of page</a>

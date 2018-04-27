@@ -10,6 +10,8 @@ import {
 //circle/squared images on display
 //may 18 personal dedline
 //Lauch static / back end development begins
+//All home page images need to like to album set, and then have a sliding javascript feature that shows the album name
+//Album page needs to have a creative design that will represent the album name, date, and the model that is seen
 
 //Chane ALL html class tags to className
 

@@ -66,17 +66,40 @@ body
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.photo
+{
+    padding-bottom: 10px;
+}
+.photo2
+{
+    padding-bottom: 10px;
+}
 #one
 {
     margin-left: 23%;
+}
+#two
+{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #four
 {
     margin-left: 23%;
 }
+#five
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #seven
 {
     margin-left: 23%;
+}
+#eight
+{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .footer
 {
@@ -109,4 +132,41 @@ body
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
     line-height: 60px;
+}
+.bio
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bioContent
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    height: 330px;
+}
+.bioContent p
+{
+    padding-left: 30px;
+}
+#headShot
+{
+    margin-left: 18.5%;
+    border: #fdfd96 solid 5px;
+}
+.contact
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactContent
+{
+    margin-left: 18.5%;
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contactContent p
+{
+    padding: 5px;
 }
