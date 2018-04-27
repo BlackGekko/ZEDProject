@@ -104,15 +104,18 @@ function animate()
         circleArray[i].update();
     }
 
+    //SOLVED
     //Text will not center inside of the canvasd element
     //1920x942
     //Dividing both the with/2 and entering actal divided numbers does not produce a change in the texts settting.
     //setting location at 10, 50 shows good possible placement for the menu bar that will be added to the page
     //For some reason setting it to 620,460 made the text center even though that is no where from half of the canvas
+    //SOLVED
 
     c.font = "100px Arial";
-    c.fillText("ZED PROJECT", 620, 460);
     c.strokeText = 'white';
+    var textString = "ZED PROJECT", textWidth = c.measureText(textString).width;
+    c.fillText(textString, (canvas.width/2) - (textWidth/2), 450);
 }
 init();
 animate();
