@@ -124,18 +124,3 @@ init();
 animate();
 
 }
-
-
-//Code below is just for refernance later for another page, disregard until testing had concluded
-
-//<div class="grid-x">
-//<div class="cell">
-//<div class="opening">
-    //<canvas></canvas>
-    //<script src="../src/canvas.js"></script>
-    //<button id="button1" class="button">Contact</button>
-    //<button id="button2" class="button">About</button>
-    //<button id="button3" class="button">Home</button>
-//</div>
-//</div>
-//</div>
