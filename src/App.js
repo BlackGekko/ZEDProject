@@ -4,7 +4,7 @@ import {
   NavLink,
   BrowserRouter,
   Switch,
-  Link
+  //Link
 } from "react-router-dom";
 
 //Home return to top buttons -- COMPLETE
@@ -17,6 +17,7 @@ import {
 //Need to create sub routes that when an image is clicked that album is brought up -- In Progress
 //Create className to keep the buttons text from turning blue when it beconmes a link -- COMPLETE
 //Change ALL html class tags to className
+//Remove all errors that orrcur on compile!!!
 
 import canvas from './canvas.js';
 
