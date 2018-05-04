@@ -9,7 +9,7 @@ canvas
     bottom: 0;
     left: 0;
     position: absolute;
-    margin-left: 47%;
+    margin-left: 550px;
     margin-bottom: 19%;
     background-color: #fdfd96;
     outline-color: black;
@@ -26,7 +26,7 @@ canvas
     bottom: 0;
     left: 0;
     position: absolute;
-    margin-left: 52.5%;
+    margin-left: 650px;
     margin-bottom: 19%;
     background-color: #fdfd96;
     outline-color: black;
@@ -43,7 +43,7 @@ canvas
     bottom: 0;
     left: 0;
     position: absolute;
-    margin-left: 42%;
+    margin-left: 450px;
     margin-bottom: 19%;
     background-color: #fdfd96;
     outline-color: black;
@@ -58,7 +58,7 @@ canvas
     bottom: 0;
     left: 0;
     position: absolute;
-    margin-left: 36.5%;
+    margin-left: 750px;
     margin-bottom: 19%;
     background-color: #fdfd96;
     outline-color: black;
@@ -92,7 +92,7 @@ body
 }
 #one
 {
-    margin-left: 23%;
+    margin-left: 180px;
 }
 #two
 {
@@ -101,7 +101,7 @@ body
 }
 #four
 {
-    margin-left: 23%;
+    margin-left: 180px;
 }
 #five
 {
@@ -110,7 +110,7 @@ body
 }
 #seven
 {
-    margin-left: 23%;
+    margin-left: 180px;
 }
 #eight
 {
@@ -163,11 +163,11 @@ body
 }
 .bioContent p
 {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 #headShot
 {
-    margin-left: 18.5%;
+    margin-left: 150px;
     border: #fdfd96 solid 5px;
 }
 .contact
