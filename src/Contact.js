@@ -2,6 +2,9 @@ import React from 'react';
 
 import Footer from './Footer.js';
 
+//The verticle line that sperates the form and info does not look great -- COMPLETE
+//Create a JS line object to do the trick -- COMPLETE
+
 export default class Contact extends React.Component {
     render() {
         return (

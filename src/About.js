@@ -1,9 +1,9 @@
 import React from 'react';
 
-//The images inside the imageGalOne div will not display on the page
-//This may be due to the images being a transparent png that React is not recognizing
+//The images inside the imageGalOne div will not display on the page -- COMPLETE
+//This may be due to the images being a transparent png that React is not recognizing -- COMPLETE
 
-//Begin creating resize function inside the elements to help combat widow re-size causing pixel loss and suchs
+//Begin creating resize function inside the elements to help combat widow re-size causing pixel loss and suchs -- IN PROGRESS
 
 import Footer from './Footer.js';
 

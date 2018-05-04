@@ -2,15 +2,18 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import $ from 'jquery';
 
+//This page is using set px stylin for the location of the images, should change
+//these to percentages to avoid having render issues when loading on smaller screens. -- COMPLETE -- TICKET CREATED
+
 import Footer from './Footer.js';
 
 export default class Home extends React.Component {
 	componentDidMount() {
-		
+
 	}
 
     render() {
-		
+
         return (
             <div>
                 <div class="grid-x">

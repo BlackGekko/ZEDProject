@@ -1,7 +1,7 @@
 import React from 'react';
 
-//Both social media logos need to be spread apart as they overlap in the middle
-//Fix home achor from redirecting page to #top
+//Both social media logos need to be spread apart as they overlap in the middle -- COMPLETE
+//Fix home achor from redirecting page to #top -- TICKET CREATED
 
 export default class Footer extends React.Component {
     render() {

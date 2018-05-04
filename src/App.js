@@ -18,6 +18,7 @@ import {
 //Create className to keep the buttons text from turning blue when it beconmes a link -- COMPLETE
 //Change ALL html class tags to className
 //Remove all errors that orrcur on compile!!!
+//Create Modal images functionality on albums page
 
 import canvas from './canvas.js';
 
