@@ -1,7 +1,15 @@
 import React from 'react';
+import {
+  Route,
+  NavLink,
+  BrowserRouter,
+  Switch,
+  Link
+} from "react-router-dom";
 import $ from 'jquery';
 
 import Footer from './Footer.js';
+import MarchOne from './MarchOne.js';
 
 //All albums will be laid out accroding to the date and year they were published, albums will descend new > old
 //Impliment JQUERY class access to find what image is being clicked to display the modal image -- IN PROGRESS
@@ -27,7 +35,8 @@ export default class Albums extends React.Component {
                                 <p>March, 2018</p>
                             </div>
                             <div className='mar2018'>
-                              <img className="myImg" id='march1' data-featherlight={require('./images/March_2018/march1.jpg')} src={require('./images/March_2018/march1sm.jpeg')} alt="Photo Caption" />
+                              <img className="myImg" id='marchOne' data-featherlight={require('./images/March_2018/march1.jpg')} src={require('./images/March_2018/march1sm.jpeg')} alt="Photo Caption" />
+                              <Link to='/marchOne'>{MarchOne}</Link>
                             </div>
                             <hr></hr>
                         </div>

@@ -26,6 +26,7 @@ import Home from './Home.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import Albums from './Albums.js';
+import MarchOne from './MarchOne.js';
 
 export default class App extends Component {
   render() {
@@ -49,6 +50,7 @@ export default class App extends Component {
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route path='/albums' component={Albums}/>
+            <Route path='/albums/marchOne' Component={MarchOne}/>
           </Switch>
         </div>
       </BrowserRouter>
