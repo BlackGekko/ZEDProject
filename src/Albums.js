@@ -27,8 +27,9 @@ export default class Albums extends React.Component {
                                 <p>March, 2018</p>
                             </div>
                             <div className='mar2018'>
-
+                              <img className="myImg" id='march1' data-featherlight={require('./images/March_2018/march1.jpg')} src={require('./images/March_2018/march1sm.jpeg')} alt="Photo Caption" />
                             </div>
+                            <hr></hr>
                         </div>
                     </div>
                 </div>

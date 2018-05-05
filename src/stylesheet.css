@@ -247,6 +247,12 @@ body
 {
     margin-right: 15px;
 }
+.mar2018
+{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
