@@ -12,7 +12,7 @@ import Footer from './Footer.js';
 import MarchOne from './MarchOne.js';
 
 //All albums will be laid out accroding to the date and year they were published, albums will descend new -> old
-//Impliment JQUERY class access to find what image is being clicked to display the modal image -- IN PROGRESS
+//Impliment JQUERY class access to find what image is being clicked to display the modal image -- COMPLETE
 
 export default class Albums extends React.Component {
     render() {
@@ -57,7 +57,7 @@ export default class Albums extends React.Component {
                               <hr></hr>
                             </div>
                             <div className='jan2018'>
-
+                               <img className="myImg" id='Jan1' src={require('./images/Jan_2018//Jan1sm.jpeg')} alt="Photo Caption" />
                             </div>
                             <hr></hr>
                         </div>

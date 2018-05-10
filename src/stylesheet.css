@@ -263,6 +263,17 @@ body
   /* margin-left: 15px; */
   margin-bottom: 15px;
 }
+.jan2018
+{
+  display: inline-block;
+  vertical-align: top;
+  /* margin-left: 15px; */
+  margin-bottom: 15px;
+}
+.jan2018 #Jan1
+{
+  margin-left: 8px;
+}
 .mar2018 #marchOne
 {
   margin-right: 15px;
