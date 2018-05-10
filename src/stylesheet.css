@@ -234,14 +234,16 @@ body
 {
     display: inline-block;
     vertical-align: top;
-    margin-left: 18.5%;
+    margin-left: 8.5%;
+    margin-right: 40px;
 
 }
 .a2018
 {
     display: inline-block;
     vertical-align: top;
-    margin-left: 15px;
+    margin-left: 27px;
+    margin-bottom: 15px;
 }
 .a2018 #ap1
 {
@@ -252,6 +254,18 @@ body
   display: inline-block;
   vertical-align: top;
   margin-left: 15px;
+  margin-bottom: 15px;
+}
+.feb2018
+{
+  display: inline-block;
+  vertical-align: top;
+  /* margin-left: 15px; */
+  margin-bottom: 15px;
+}
+.mar2018 #marchOne
+{
+  margin-right: 15px;
 }
 .modal {
     display: none; /* Hidden by default */
@@ -323,7 +337,29 @@ body
     }
 }
 .myImg {
-    border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+}
+#marchThree
+{
+  margin-left: 15px;
+}
+#marchFour
+{
+  margin-left: 15px;
+}
+.albumHR
+{
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Feb2
+{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#Feb3
+{
+  margin-right: 15px;
 }
